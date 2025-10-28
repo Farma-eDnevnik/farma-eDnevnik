@@ -1,4 +1,4 @@
-import { About } from '@/pages/about'
+import { About } from '@/pages'
 import { createFileRoute } from '@tanstack/react-router'
 
 
