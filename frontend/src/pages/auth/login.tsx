@@ -1,6 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { useForm, SubmitHandler } from "react-hook-form"
-import FksLogo from "@/assets/fks.svg?react";
+import ReactLogo from "@/assets/react.svg?react";
 
 type Inputs = {
   email: string
@@ -16,7 +16,7 @@ export const Login = () => {
   return (
     <div className="flex min-h-screen">
       <div className="w-1/2 h-screen justify-center bg-gray-100">
-        <FksLogo className="w-full h-full object-center " />
+        <ReactLogo className="w-full h-full object-center " />
       </div>
 
       <div className="w-1/2 h-screen flex items-center justify-center bg-white">
